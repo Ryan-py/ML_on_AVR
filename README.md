@@ -1,6 +1,6 @@
 # ML ON AVR
-## PREREQUSITES
-This code has been tested on Arduno Uno and Arduino Pro Mini
+This a simple project to showcase on how one can deploy Machine learning models to AVR boards such as Arduino Pro Mini
+*This code has been tested on Arduno Uno and Arduino Pro Mini*
 ## Python Notebook
 
 The initial model training and conversion to Arduino-compatible code are performed in a Python notebook. The notebook (`RandomForestClassifier_training.ipynb`) is available in this repository. It covers the following steps:
