@@ -15,18 +15,11 @@ The initial model training and conversion to Arduino-compatible code are perform
 
 ## Arduino Sketch
 
-The Arduino sketch (`iris_prediction.ino`) uses the converted model (`clf.h`) to make predictions on input features received through the serial monitor. Here are the key components of the sketch:
-
-- `clf.h`: The header file containing the converted machine learning model.
-- `species[]`: An array of strings representing the possible Iris species.
-- `setup()`: Initializes the serial communication and prints an instruction message.
-- `loop()`: Repeatedly reads input features from the serial monitor, makes predictions, and prints the predicted species.
-- `readSerialInput(float inputArray[])`: Helper function to read input features from the serial monitor.
-
+The Arduino sketch (`predict.ino`) uses the converted model (`clf.h`) to make predictions on input features received through the serial monitor. 
 # Usage
 
 ## Library Installation
-Copy the `emlearn` file and paste it to the location of your Arduino Library
+Copy the `emlearn` folder and paste it to the location of your Arduino Library
 
 | Operating System | Arduino Library Path                       |
 | ---------------- | ------------------------------------------ |
