@@ -1,6 +1,14 @@
 # ML ON AVR
 This a simple project to showcase on how one can deploy Machine learning models to AVR boards such as Arduino Pro Mini
 *This code has been tested on Arduno Uno and Arduino Pro Mini*
+
+## About the Iris Dataset
+The dataset consists of 3 different types of plant flowers' (Setosa, Versicolour and Virginica) petal and sepal lengths, in cm.
+
+The rows consist of the individual plant species and the columns are: `Sepal Length`, `Sepal Width`, `Petal Length` and `Petal Width`. The last column is the `identity of the flower`, encoded as an integer, ie 0, 1 and 2.
+
+The machine learning model will learn on the various characteristics of a specific flower type and after training will be able to predict the plant flower type given its characteristics.
+
 ## Python Notebook
 
 The initial model training and conversion to Arduino-compatible code are performed in a Python notebook. The notebook (`RandomForestClassifier_training.ipynb`) is available in this repository. It covers the following steps:
